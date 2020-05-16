@@ -114,7 +114,7 @@ width: 50%;
 }
 
 .open .bar.start{
-  transform: rotate(-450deg) translateX(.8rem);
+  transform: rotate(-90deg) translateX(.8rem);
 }
 
 .bar.end{
@@ -124,5 +124,5 @@ width: 50%;
 }
 
 .open .bar.end{
-  transform: rotate(-450deg) translateX(-.8rem);
+  transform: rotate(-90deg) translateX(-.8rem);
 }
