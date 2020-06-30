@@ -275,11 +275,11 @@ width: 50%;
   transition: color 650ms;
 }
 
-.fa-facebook-square:hover{
+.fa-linkedin-square:hover{
   color: #4267b2;
 }
 
-.fa-twitter-square:hover{
+.fa-instagram:hover{
   color: #38a1f3;
 }
 
@@ -314,6 +314,7 @@ width: 50%;
   display: flex;
   transform: rotate(45deg);
 }
+
 
 .icon-container i{
   color: #355C7D;
@@ -633,5 +634,7 @@ form{
 .up {
   right: 2rem;
 }
+
+
 
 }
