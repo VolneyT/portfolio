@@ -635,6 +635,8 @@ form{
   right: 2rem;
 }
 
+.pswp__bg {background: rgba(0, 0, 0, 0.7);}
+
 
 
 }
