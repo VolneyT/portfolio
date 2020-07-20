@@ -276,11 +276,11 @@ width: 50%;
 }
 
 .fa-linkedin-square:hover{
-  color: #4267b2;
+  color: white;
 }
 
 .fa-instagram:hover{
-  color: #38a1f3;
+  color: white;
 }
 
 .my-skills{
@@ -636,6 +636,7 @@ form{
 }
 
 .pswp__bg {background: rgba(0, 0, 0, 0.7);}
+
 
 
 
