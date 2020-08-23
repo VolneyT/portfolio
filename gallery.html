@@ -46,16 +46,11 @@
 
                   <div class="pswp__counter"></div>
 
-                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                  <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                  <a href="file:///home/volney/github/portfolio/index.html#portfolio" button class="pswp__button pswp__button--close" title="Close (Esc)"></button> </a>
 
                   <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 
-                  <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-                  <!-- element will get class pswp__preloader--active when preloader is running -->
                   <div class="pswp__preloader">
                       <div class="pswp__preloader__icn">
                         <div class="pswp__preloader__cut">
@@ -95,16 +90,81 @@
       // build items array
       var items = [
           {
-              src: 'https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg',
+              src: 'file:///home/volney/github/portfolio/images/orb.png',
               w: 964,
               h: 1024,
               title: 'Image Caption hello this is a test to see how the spacing works when dealing with these captions test test test test test test test test. Hello 1234 what if the text gets longer and longer what exactly happens i need to now',
           },
           {
-              src: 'https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg',
-              w: 1024,
-              h: 683
-          }
+              src: 'file:///home/volney/github/portfolio/images/1.jpg',
+              w: 1400,
+              h: 1000
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/2.jpg',
+              w: 1000,
+              h: 1000
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/3.jpg',
+              w: 1400,
+              h: 1000
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/4.jpg',
+              w: 800,
+              h: 800
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/5.jpg',
+              w: 800,
+              h: 800
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/6.jpg',
+              w: 800,
+              h: 800
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/7.jpg',
+              w: 800,
+              h: 800
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/8.jpg',
+              w: 800,
+              h: 800
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/9.jpg',
+              w: 800,
+              h: 800
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/10.jpg',
+              w: 800,
+              h: 800
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/11.jpg',
+              w: 800,
+              h: 800
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/12.jpg',
+              w: 800,
+              h: 800
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/13.jpg',
+              w: 800,
+              h: 800
+          },
+          {
+              src: 'file:///home/volney/github/portfolio/images/14.jpg',
+              w: 800,
+              h: 800
+          },
       ];
 
       // define options (if needed)
@@ -112,10 +172,12 @@
                // history & focus options are disabled on CodePen
           history: false,
           focus: false,
+          closeElClasses: ['caption', 'ui', 'top-bar'],
+
 
           showAnimationDuration: 0,
           hideAnimationDuration: 0,
-          bgOpacity: .1
+          bgOpacity: .0
 
       };
 

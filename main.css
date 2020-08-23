@@ -19,7 +19,7 @@ body{
 
 #particles-js{
   width: 100%;
-  height: 100%;
+  height: 90vh;
 }
 
 section{
@@ -95,7 +95,8 @@ img{
 
 header{
   width: 100%;
-  height: 35vh;
+  height: 10vh;
+  margin-bottom: 10vh;
 }
 
 .top-nav{
@@ -276,7 +277,7 @@ width: 50%;
 }
 
 .fa-linkedin-square:hover{
-  color: white;
+  color: #2867b2;
 }
 
 .fa-instagram:hover{
@@ -470,7 +471,7 @@ input[type="submit"]:hover{
 .copyright{
   width: 100%;
   text-align: center;
-  background-color: #D3D7F2;
+  background-color: #edb6af;
   padding: 2rem 0;
   position: relative;
 }
@@ -493,6 +494,24 @@ input[type="submit"]:hover{
   font-size: 2rem;
   margin: auto;
 }
+
+.down{
+  width: 5rem;
+  height: 5rem;
+  background-color: #eee;
+  border-radius: 100%;
+  display: inline-flex;
+  animation: pulse 2s infinite;
+  cursor: pointer;
+  margin-top: 5rem;
+}
+
+.down i{
+  color: #16162d;
+  font-size: 2rem;
+  margin: auto;
+}
+
 
 .copyright p{
   font-size: 1.4rem;
@@ -517,8 +536,7 @@ input[type="submit"]:hover{
 
 @media screen and (max-width: 768px) {
   body{
-    background: url("images/sitebg2.jpg") no-repeat center fixed;
-    background-size: cover;
+    background-color: #DBD8F2;
   }
 
 .landing-text h1{
